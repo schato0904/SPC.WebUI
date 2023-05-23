@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\bin\Debug\SPC.QCAN.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\bin\Debug\SPC.QCAN.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\bin\Debug\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\bin\Debug\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\obj\Debug\SPC.QCAN.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\obj\Debug\SPC.QCAN.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.QCAN.Dac\obj\Debug\SPC.QCAN.Dac.csprojResolveAssemblyReference.cache

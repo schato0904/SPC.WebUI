@@ -1,0 +1,6 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Debug\SPC.CATM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Debug\SPC.CATM.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Debug\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Debug\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\obj\Debug\SPC.CATM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\obj\Debug\SPC.CATM.Dac.pdb

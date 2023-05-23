@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\bin\Release\SPC.WSTA.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\bin\Release\SPC.WSTA.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\obj\Release\SPC.WSTA.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\obj\Release\SPC.WSTA.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.WSTA.Dac\obj\Release\SPC.WSTA.Dac.csprojResolveAssemblyReference.cache

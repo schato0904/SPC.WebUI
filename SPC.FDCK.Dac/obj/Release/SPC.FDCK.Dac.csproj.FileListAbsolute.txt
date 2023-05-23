@@ -1,0 +1,6 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.FDCK.Dac\bin\Release\SPC.FDCK.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.FDCK.Dac\bin\Release\SPC.FDCK.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.FDCK.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.FDCK.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.FDCK.Dac\obj\Release\SPC.FDCK.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.FDCK.Dac\obj\Release\SPC.FDCK.Dac.pdb

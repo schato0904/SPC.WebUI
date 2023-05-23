@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\bin\Release\SPC.TISP.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\bin\Release\SPC.TISP.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\obj\Release\SPC.TISP.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\obj\Release\SPC.TISP.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.TISP.Dac\obj\Release\SPC.TISP.Dac.csprojResolveAssemblyReference.cache

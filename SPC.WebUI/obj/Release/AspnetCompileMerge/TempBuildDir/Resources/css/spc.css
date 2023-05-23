@@ -1,0 +1,390 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Common */
+body{margin:0;padding:0}
+html{overflow:hidden}
+html,body{width:100%;height:100%;}
+
+/*DevExpress Fix*/
+.NoXButton .dxeEditAreaSys::-ms-clear {
+    display: none;
+}
+
+.dxeDisabled,
+.dxeDisabled td.dxe {
+    color: #acacac !important;
+    cursor: default;
+}
+/*DevExpress Fix*/
+
+/* Font */
+body,input,textarea,select,button,table, td {
+	font-family: 'Malgun Gothic', '맑은고딕', 'Dotum', sans-serif;
+	font-size: 13px;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+input {
+    vertical-align:middle;
+    outline: none;
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+.truncated {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container_l {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container_r {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.search,
+.search_l,
+.search_r {
+    width: 100%;
+}
+
+.content,
+.content_l,
+.content_r {
+    width: 100%;
+}
+
+.paging,
+.paging_l,
+.paging_r {
+    width: 100%;
+}
+
+.devExpressGrid {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* way the hell off screen */
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}
+.divLine {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    /*background-color: dimgray;*/
+    background-color: #6495ED;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.divPadding {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.contentTable {
+    width:100%;
+    border-collapse:collapse;
+    /*border:1px solid #A9A9A9;*/
+    border-spacing: 0;
+    border-top : 1px solid #9F9F9F;
+    border-left : 1px solid #9F9F9F;
+    table-layout:fixed;
+}
+.contentTable tr {
+    /*padding-top:5px;
+    padding-bottom:5px;*/
+    height:24px;
+}
+.contentTable > thead > tr > th {
+    /*background-color: #CFEFFF;*/
+    background-color: #DCDCDC;
+    color: dimgray;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #444444;
+    font-weight:bold;
+    height:25px;
+}
+.contentTable > tbody > tr > td {
+    padding:5px;
+    /*border:1px solid #A9A9A9;*/
+    border-right : 1px solid #9F9F9F; 
+    border-bottom : 1px solid #9F9F9F;
+    /*padding-left:5px;
+    padding-right:5px;*/
+}
+.contentTable > tbody > tr > .tdLabel {
+    /*background-color: #CFEFFF;*/
+    background-color: #DCDCDC;
+    color: dimgray;
+    text-align: center;
+    color: #444444;
+    font-weight:bold;
+}
+.contentTable > tbody > tr > .required:before {
+    content:"*";
+    color:red;
+}
+.contentTable > tbody > tr > .tdInput {
+    background-color: white;
+    padding: 3px;
+}
+.contentTable > tbody > tr > .tdContentR {
+    border-right: 0px none transparent;
+    /*border-right-width:0px;*/            
+}
+.contentTable > tbody > tr > .tdContentL {
+    border-left: 0px none transparent;
+    /*border-left-width:0px;*/
+}
+.contentTable > tbody > tr > .tdContentLR {
+    border-right: 0px none transparent;
+    border-left: 0px none transparent;
+    /*border-right-width:0px;
+    border-left-width:0px;*/
+}
+.centerImage {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.resizeImageRatio {
+    max-height:95%;
+    max-width:95%;
+}
+.layerTable {
+    width: 100%;
+    height: 100%;
+    border-width:0px;
+}
+.layerTableNoWidth {
+    height: 100%;
+    border-width:0px;
+    table-layout: fixed;
+}
+.layerTableNoWidth > tbody > tr > .tdLabel {
+    /*background-color: #CFEFFF;*/
+    border: 1px solid #9F9F9F;
+    background-color: #DCDCDC;
+    color: dimgray;
+    text-align: left;
+    color: #444444;
+    font-weight:bold;
+    padding:5px;
+}
+.layerTableNoHeight {
+    width: 100%;
+    border-width:0px;
+}
+.layerTableNoHeight > tbody > tr > .tdLabel {
+    /*background-color: #CFEFFF;*/
+    border: 1px solid #9F9F9F;
+    background-color: #DCDCDC;
+    color: dimgray;
+    text-align: left;
+    color: #444444;
+    font-weight:bold;
+    padding:5px;
+}
+.layerTableNoHeight > tbody > tr > .tdContentBtn {
+    border-right: 0px none transparent;
+    border-bottom: 0px none transparent;
+    border-top: 0px none transparent;
+    /*border-right-width:0px;
+    border-bottom-width:0px;
+    border-top-width:0px;*/
+}
+.nullText {
+    color: gray !important;
+}
+.ui-widget-overlay {
+    opacity: .50 !important; /* Make sure to change both of these, as IE only sees the second one */
+    filter: Alpha(Opacity=50) !important;
+    background: rgb(50, 50, 50) !important; /* This will make it darker */
+}
+
+/* 2018.01.22 QMS 테이블 스타일 */
+.InputTable {
+    width:100%;
+    border-collapse:collapse;
+    border-spacing: 0;
+    border-top : 1px solid #A9A9A9; 
+    border-left : 1px solid #A9A9A9;
+    background-color:white;
+    table-layout:fixed;
+}
+    .InputTable tr {
+        height:24px;
+    }
+        .InputTable>tbody>tr>td {
+            padding:5px;
+            border-right : 1px solid #A9A9A9; 
+            border-bottom : 1px solid #A9A9A9;
+        }
+        .InputTable>tbody>tr>.tdTitle {
+            background-color:#DCDCDC;
+            color:#393939;
+            font-weight:600;
+        }
+            .InputTable > tbody > tr > .tdTitle > label {
+                color:#393939;
+                font-weight:inherit;
+            }
+        .InputTable>tbody>tr>.tdContentR {
+            border-right: 0px none transparent;
+        }
+        .InputTable>tbody>tr>.tdContentL {
+            border-left: 0px none transparent;
+        }
+        .InputTable>tbody>tr>.tdContentLR {
+            border-right: 0px none transparent;
+            border-left: 0px none transparent;
+        }
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* -------- END OF 2018.01.22 QMS 테이블 스타일 */
+
+.contentTableNew {
+    width:100%;
+    border-collapse:collapse;
+    /*border:1px solid #A9A9A9;*/
+    border-spacing: 0;
+    table-layout:fixed;
+}
+.contentTableNew tr {
+    /*padding-top:5px;
+    padding-bottom:5px;*/
+    height:24px;
+}
+.contentTableNew > thead > tr > th {
+    /*background-color: #CFEFFF;*/
+    background-color: #DCDCDC;
+    color: dimgray;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #444444;
+    font-weight:bold;
+    height:25px;
+}
+.contentTableNew > tbody > tr > td {
+    padding:5px;
+    /*border:1px solid #A9A9A9;*/
+    border-top : 1px solid #9F9F9F;
+    border-left : 1px solid #9F9F9F;
+    border-right : 1px solid #9F9F9F; 
+    border-bottom : 1px solid #9F9F9F;
+    /*padding-left:5px;
+    padding-right:5px;*/
+}
+.contentTableNew > tbody > tr > .tdLabel {
+    /*background-color: #CFEFFF;*/
+    background-color: #DCDCDC;
+    color: dimgray;
+    text-align: center;
+    color: #444444;
+    font-weight:bold;
+}
+.contentTableNew > tbody > tr > .tdSubLabel {
+    /*background-color: #CFEFFF;*/
+    background-color: #F5F5F5;
+    color: #D3D3D3;
+    text-align: center;
+    color: #444444;
+    font-weight:normal;
+}
+.contentTableNew > tbody > tr > .required:before {
+    content:"*";
+    color:red;
+}
+.contentTableNew > tbody > tr > .tdInput {
+    background-color: white;
+    padding: 3px;
+}
+.contentTableNew > tbody > tr > .tdContentR {
+    border-right: 0px none transparent;
+    /*border-right-width:0px;*/            
+}
+.contentTableNew > tbody > tr > .tdContentL {
+    border-left: 0px none transparent;
+    /*border-left-width:0px;*/
+}
+.contentTableNew > tbody > tr > .tdContentLR {
+    border-right: 0px none transparent;
+    border-left: 0px none transparent;
+    /*border-right-width:0px;
+    border-left-width:0px;*/
+}
+.contentTableNew > tbody > tr > .tdContentNB {
+    border-right: 0px none transparent;
+    border-left: 0px none transparent;
+    border-bottom: 0px none transparent;
+    border-top: 0px none transparent;
+    /*border-right-width:0px;
+    border-left-width:0px;
+    border-bottom-width:0px;
+    border-top-width:0px;*/
+}
+.contentTableNew > tbody > tr > .tdContentBtn {
+    border-right: 0px none transparent;
+    border-bottom: 0px none transparent;
+    border-top: 0px none transparent;
+    /*border-right-width:0px;
+    border-bottom-width:0px;
+    border-top-width:0px;*/
+}
+
+.blockTitle {
+    width:100%;
+    height:20px;
+    float:left;
+    margin-bottom:3px;
+}
+
+.blockTitle > span {
+    color:#333333;
+    font-weight: bold;
+    vertical-align:middle;
+}

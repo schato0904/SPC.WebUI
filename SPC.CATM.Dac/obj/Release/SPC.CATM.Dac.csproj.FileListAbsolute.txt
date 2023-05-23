@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Release\SPC.CATM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Release\SPC.CATM.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\obj\Release\SPC.CATM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\obj\Release\SPC.CATM.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.CATM.Dac\obj\Release\SPC.CATM.Dac.csprojResolveAssemblyReference.cache

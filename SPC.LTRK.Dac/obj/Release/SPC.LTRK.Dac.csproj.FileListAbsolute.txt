@@ -1,0 +1,6 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.LTRK.Dac\bin\Release\SPC.LTRK.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.LTRK.Dac\bin\Release\SPC.LTRK.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.LTRK.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.LTRK.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.LTRK.Dac\obj\Release\SPC.LTRK.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.LTRK.Dac\obj\Release\SPC.LTRK.Dac.pdb

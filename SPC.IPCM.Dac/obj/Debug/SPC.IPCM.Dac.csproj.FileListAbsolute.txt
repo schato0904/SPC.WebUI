@@ -1,0 +1,6 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Dac\bin\Debug\SPC.IPCM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Dac\bin\Debug\SPC.IPCM.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Dac\bin\Debug\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Dac\bin\Debug\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Dac\obj\Debug\SPC.IPCM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Dac\obj\Debug\SPC.IPCM.Dac.pdb

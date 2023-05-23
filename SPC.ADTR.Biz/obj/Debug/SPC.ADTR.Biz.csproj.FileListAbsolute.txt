@@ -1,0 +1,9 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\bin\Debug\SPC.ADTR.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\bin\Debug\SPC.ADTR.Biz.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\bin\Debug\SPC.ADTR.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\bin\Debug\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\bin\Debug\SPC.ADTR.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\bin\Debug\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\obj\Debug\SPC.ADTR.Biz.csprojResolveAssemblyReference.cache
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\obj\Debug\SPC.ADTR.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ADTR.Biz\obj\Debug\SPC.ADTR.Biz.pdb

@@ -1,0 +1,9 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\bin\Release\SPC.BSIF.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\bin\Release\SPC.BSIF.Biz.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\bin\Release\SPC.BSIF.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\bin\Release\SPC.BSIF.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\obj\Release\SPC.BSIF.Biz.csprojResolveAssemblyReference.cache
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\obj\Release\SPC.BSIF.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BSIF.Biz\obj\Release\SPC.BSIF.Biz.pdb

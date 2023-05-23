@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\bin\Release\SPC.WERD.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\bin\Release\SPC.WERD.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\obj\Release\SPC.WERD.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\obj\Release\SPC.WERD.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.WERD.Dac\obj\Release\SPC.WERD.Dac.csprojResolveAssemblyReference.cache

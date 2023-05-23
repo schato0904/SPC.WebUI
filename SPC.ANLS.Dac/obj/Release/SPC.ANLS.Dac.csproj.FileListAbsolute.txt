@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\bin\Release\SPC.ANLS.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\bin\Release\SPC.ANLS.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\obj\Release\SPC.ANLS.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\obj\Release\SPC.ANLS.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.ANLS.Dac\obj\Release\SPC.ANLS.Dac.csprojResolveAssemblyReference.cache

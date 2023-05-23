@@ -1,0 +1,7 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\bin\Debug\SPC.BORD.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\bin\Debug\SPC.BORD.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\bin\Debug\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\bin\Debug\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\obj\Debug\SPC.BORD.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\obj\Debug\SPC.BORD.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.BORD.Dac\obj\Debug\SPC.BORD.Dac.csprojResolveAssemblyReference.cache

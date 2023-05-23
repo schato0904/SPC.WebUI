@@ -1,0 +1,42 @@
+        #region 변수
+        DataTable dtHead = null;
+        DataTable dtGroup = null;
+        DataTable dtData = null;
+        #endregion
+        
+        #region 생성자
+        public xtraReport(DataTable _dtHead, DataTable _dtGroup, DataTable _dtData)
+        {
+            InitializeComponent();
+
+            dtHead = _dtHead;
+            dtGroup = _dtGroup;
+            dtData = _dtData;
+
+            // 리포트 헤더
+            SetReportHeader();
+
+            // 리포트데이터
+            RendorReportData();
+        }
+        #endregion
+
+        #region 사용자 함수
+
+        #region 리포트 헤더
+        private void SetReportHeader()
+        {
+            DataRow dtRow = dtHead.Rows[0];
+        }
+        #endregion
+
+        #region 리포트데이터
+        private void RendorReportData()
+        {
+        }
+        #endregion
+
+        #endregion
+
+        #region 사용자 이벤트
+        #endregion

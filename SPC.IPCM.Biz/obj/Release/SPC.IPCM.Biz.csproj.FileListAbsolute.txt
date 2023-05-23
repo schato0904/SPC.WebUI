@@ -1,0 +1,9 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\bin\Release\SPC.IPCM.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\bin\Release\SPC.IPCM.Biz.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\bin\Release\SPC.IPCM.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\bin\Release\SPC.IPCM.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\obj\Release\SPC.IPCM.Biz.csprojResolveAssemblyReference.cache
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\obj\Release\SPC.IPCM.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.IPCM.Biz\obj\Release\SPC.IPCM.Biz.pdb

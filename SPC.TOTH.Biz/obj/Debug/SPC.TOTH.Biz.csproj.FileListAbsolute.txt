@@ -1,0 +1,9 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\bin\Debug\SPC.TOTH.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\bin\Debug\SPC.TOTH.Biz.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\bin\Debug\SPC.TOTH.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\bin\Debug\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\bin\Debug\SPC.TOTH.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\bin\Debug\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\obj\Debug\SPC.TOTH.Biz.csprojResolveAssemblyReference.cache
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\obj\Debug\SPC.TOTH.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.TOTH.Biz\obj\Debug\SPC.TOTH.Biz.pdb

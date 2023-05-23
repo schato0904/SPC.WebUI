@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="spcExportMasterPage.master.cs" Inherits="SPC.WebUI.Resources.controls.MasterPage.spcExportMasterPage" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Resources/jquery/jquery-ui-1.10.4.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/spc.css" />
+    <script type="text/javascript">var isCsLogin = '<%#Request.Cookies["spckey"]["CSLOGIN"]%>'</script>
+    <!--[if lt IE 9]>
+    <script src="<%#Page.ResolveUrl("~/Resources/scripts/ie/html5shiv.js")%>"></script>
+    <script src="<%#Page.ResolveUrl("~/Resources/scripts/ie/respond.min.js")%>"></script>
+    <script src="<%#Page.ResolveUrl("~/Resources/scripts/ie/excanvas.js")%>"></script>
+    <![endif]-->
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/jquery/jquery-1.10.2.min.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/jquery/jquery-ui-1.10.4.custom.min.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/message/Message.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/SPCCommon.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/DevExpress.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/SPCPopup.js")%>"></script>
+    <%--<script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/ASPxScriptIntelliSense.js")%>"></script>--%>
+    <style type="text/css">
+    html, body {
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .content-panel {
+			width: 100%;
+			height: 100%;
+            overflow: hidden;
+        }
+        .content-main {
+            display: block;
+            width: 100%;    
+            margin: 15px auto;
+            top: 0;
+            bottom: 0;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="content-panel">
+        <form id="form1" runat="server">
+            <section class="content-main">
+                <asp:ContentPlaceHolder ID="cphBody" runat="server"></asp:ContentPlaceHolder>
+            </section>
+        </form>
+    </div>
+</body>
+</html>

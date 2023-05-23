@@ -1,0 +1,9 @@
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\bin\Release\SPC.MNTR.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\bin\Release\SPC.MNTR.Biz.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\bin\Release\SPC.MNTR.Dac.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\bin\Release\CTF.Web.Framework.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\bin\Release\SPC.MNTR.Dac.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\bin\Release\CTF.Web.Framework.pdb
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\obj\Release\SPC.MNTR.Biz.csprojResolveAssemblyReference.cache
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\obj\Release\SPC.MNTR.Biz.dll
+C:\WebCollection\CTF.WEB\SPC\SPC.MNTR.Biz\obj\Release\SPC.MNTR.Biz.pdb

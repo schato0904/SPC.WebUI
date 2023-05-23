@@ -1,0 +1,211 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="spcMasterPage.master.cs" Inherits="SPC.WebUI.Resources.controls.spcMasterPage" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="~/Resources/jquery/jquery-ui-1.10.4.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/icon.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/app.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/unresponsive.css" />
+    <link rel="stylesheet" type="text/css" href="~/Resources/css/spc.css" />
+    <script type="text/javascript">var isCsLogin = '<%#Request.Cookies["spckey"]["CSLOGIN"]%>'</script>
+    <!--[if lt IE 9]>
+    <script src="<%#Page.ResolveUrl("~/Resources/scripts/ie/html5shiv.js")%>"></script>
+    <script src="<%#Page.ResolveUrl("~/Resources/scripts/ie/respond.min.js")%>"></script>
+    <script src="<%#Page.ResolveUrl("~/Resources/scripts/ie/excanvas.js")%>"></script>
+    <![endif]-->
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/jquery/jquery-1.10.2.min.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/jquery/jquery-ui-1.10.4.custom.min.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/jquery/jquery.fileDownload.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/message/Message.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/SPCCommon.js?3")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/DevExpress.js?3")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/SPCPopup.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/CTF.Common.UserControl.js")%>"></script>
+    <script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/date-ko-KR.js")%>"></script>
+    <%--<script type="text/javascript" src="<%#Page.ResolveUrl("~/Resources/scripts/js/ASPxScriptIntelliSense.js")%>"></script>--%>
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+        .content-panel {
+			width: 100%;
+			height: 100%;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        .content-navi {
+            height: 49px;
+            width: 100%;
+            top: 0;
+            left: 0;
+            min-width: 1000px;        /* suppose you want minimun width of 1000px */
+        }
+    </style>
+    <style type="text/css" runat="server">
+        <%if (sPopup.Equals("true")) {%>
+        .content-main {
+            display: block;
+            width: 100%;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            top: 49px;
+            bottom: 0;
+            min-width: 1000px;        /* suppose you want minimun width of 1000px */
+        }
+        .container {
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        body {
+            background-color: #000000;
+        }
+        <%} else {%>
+        .content-main {
+            display: block;
+            width: 100%;
+            margin: 15px auto;
+            top: 49px;
+            bottom: 0;
+            min-width: 1000px;        /* suppose you want minimun width of 1000px */
+        }
+        .container {
+            width: 100%;
+        }
+        <%}%>
+    </style>
+    <script type="text/javascript">
+        var isPopup = <%#sPopup%>
+
+        function _fn_CheckURL(url) {
+            return _RootPath != _ServerRootPath && url.indexOf(_RootPath) < 0 ? url.replace(_ServerRootPath, _RootPath) : url;
+        }
+
+        function fn_devPopupClose() {
+            var devPopupCtrl = ASPxClientControl.Cast('devPopup');
+            setTimeout(function() {devPopupCtrl.Hide()}, 100);
+        }
+
+        function fn_doClearSearchBoxForTree() {
+            fn_SetTextValue('hidUCITEMCD', '');
+            fn_SetTextValue('txtUCITEMCD', '');
+            fn_SetTextValue('txtUCITEMNM', '');
+            fn_SetTextValue('hidUCMODELCD', '');
+            fn_SetTextValue('txtUCMODELNM', '');
+            fn_SetTextValue('hidUCWORKPOPCD', '');
+            fn_SetTextValue('txtUCWORKPOPCD', '');
+            fn_SetTextValue('txtUCWORKNM', '');
+            fn_SetTextValue('hidUCINSPITEMCD', '');
+            fn_SetTextValue('txtUCINSPITEMCD', '');
+            fn_SetTextValue('txtUCINSPITEMNM', '');
+            fn_SetTextValue('hidUCINSPECTIONCD', '');
+            fn_SetTextValue('txtUCINSPECTIONNM', '');
+            fn_SetTextValue('txtSTANDARD', '');
+            fn_SetTextValue('txtMAX', '');
+            fn_SetTextValue('txtMIN', '');
+            fn_SetTextValue('txtUCLX', '');
+            fn_SetTextValue('txtLCLX', '');
+            fn_SetTextValue('txtUCLR', '');
+            fn_SetTextValue('txtSERIALNO', '');
+            fn_SetTextValue('txtSIRYO', '');
+            fn_SetTextValue('txtFREEPOINT', '');
+
+            fn_SetTextValue('hidUCITEMCD1', '');
+            fn_SetTextValue('txtUCITEMCD1', '');
+            fn_SetTextValue('txtUCITEMNM1', '');
+            fn_SetTextValue('hidUCMODELCD1', '');
+            fn_SetTextValue('txtUCMODELNM1', '');
+            fn_SetTextValue('hidUCWORKPOPCD1', '');
+            fn_SetTextValue('txtUCWORKPOPCD1', '');
+            fn_SetTextValue('txtUCWORKNM1', '');
+            fn_SetTextValue('hidUCINSPITEMCD1', '');
+            fn_SetTextValue('txtUCINSPITEMCD1', '');
+            fn_SetTextValue('txtUCINSPITEMNM1', '');
+            fn_SetTextValue('hidUCINSPECTIONCD1', '');
+            fn_SetTextValue('txtUCINSPECTIONNM1', '');
+            fn_SetTextValue('txtSTANDARD1', '');
+            fn_SetTextValue('txtMAX1', '');
+            fn_SetTextValue('txtMIN1', '');
+            fn_SetTextValue('txtUCLX1', '');
+            fn_SetTextValue('txtLCLX1', '');
+            fn_SetTextValue('txtUCLR1', '');
+            fn_SetTextValue('txtSERIALNO1', '');
+            fn_SetTextValue('txtSIRYO1', '');
+            fn_SetTextValue('txtFREEPOINT1', '');
+
+            fn_SetTextValue('hidUCITEMCD2', '');
+            fn_SetTextValue('txtUCITEMCD2', '');
+            fn_SetTextValue('txtUCITEMNM2', '');
+            fn_SetTextValue('hidUCMODELCD2', '');
+            fn_SetTextValue('txtUCMODELNM2', '');
+            fn_SetTextValue('hidUCWORKPOPCD2', '');
+            fn_SetTextValue('txtUCWORKPOPCD2', '');
+            fn_SetTextValue('txtUCWORKNM2', '');
+            fn_SetTextValue('hidUCINSPITEMCD2', '');
+            fn_SetTextValue('txtUCINSPITEMCD2', '');
+            fn_SetTextValue('txtUCINSPITEMNM2', '');
+            fn_SetTextValue('hidUCINSPECTIONCD2', '');
+            fn_SetTextValue('txtUCINSPECTIONNM2', '');
+            fn_SetTextValue('txtSTANDARD2', '');
+            fn_SetTextValue('txtMAX2', '');
+            fn_SetTextValue('txtMIN2', '');
+            fn_SetTextValue('txtUCLX2', '');
+            fn_SetTextValue('txtLCLX2', '');
+            fn_SetTextValue('txtUCLR2', '');
+            fn_SetTextValue('txtSERIALNO2', '');
+            fn_SetTextValue('txtSIRYO2', '');
+            fn_SetTextValue('txtFREEPOINT2', '');
+        }
+
+        function fn_OnOpenLoadingPanel() {
+            loadingPanel.Show();
+        }
+
+        function fn_OnCloseLoadingPanel() {
+            loadingPanel.Hide();
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="unresponsive">
+    <div class="content-panel">
+        <form id="form1" runat="server">
+            <ucCTF:Navi ID="ucNavi" runat="server" />
+            <section class="content-main">
+                <asp:ContentPlaceHolder ID="cphBody" runat="server"></asp:ContentPlaceHolder>
+            </section>
+            <dx:ASPxPopupControl ID="devPopup" ClientInstanceName="devPopup" PopupElementID="popupArea" runat="server"
+                EnableHierarchyRecreation="false" Modal="true" ShowHeader="false" CloseAction="None"
+                EnableViewState="False" ViewStateMode="Disabled"
+                PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter">
+                <ClientSideEvents Init="fn_OnPopupInit" EndCallback="fn_OnPopupEndCallback" Closing="function(s) {s.SetContentUrl('about:black');}" />
+                <ContentStyle>
+                    <Paddings Padding="0px" />
+                </ContentStyle>
+            </dx:ASPxPopupControl>
+            <dx:ASPxTextBox ID="popupCtrlWidth" ClientInstanceName="popupCtrlWidth" runat="server" ClientVisible="false" Text="0" />
+            <dx:ASPxTextBox ID="popupCtrlHeight" ClientInstanceName="popupCtrlHeight" runat="server" ClientVisible="false" Text="0" />
+            <dx:ASPxLoadingPanel ID="loadingPanel" ClientInstanceName="loadingPanel" runat="server" Modal="true" />
+        </form>
+    </div>
+    <style>
+        .dxgvFocusedRow > td > a {
+            color: white;
+        }
+        .dxgvFocusedRow > td > a:hover {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</body>
+</html>

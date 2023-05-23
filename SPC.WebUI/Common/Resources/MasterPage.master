@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="SPC.WebUI.Common.Resources.MasterPage" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="~/Resources/jquery/jquery-ui-1.10.4.custom.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/Resources/css/spc.css" />
+    <!--[if lt IE 9]>
+    <script src="<%=Page.ResolveClientUrl("~/Resources/script/ie/html5shiv.js")%>"></script>
+    <script src="<%=Page.ResolveClientUrl("~/Resources/script/ie/respond.min.js")%>"></script>
+    <script src="<%=Page.ResolveClientUrl("~/Resources/script/ie/excanvas.js")%>"></script>
+    <![endif]-->
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Resources/jquery/jquery-1.10.2.min.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Resources/jquery/jquery-ui-1.10.4.custom.min.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Resources/scripts/message/Message.js")%>"></script>
+    <script type="text/javascript" src="<%=Page.ResolveClientUrl("~/Resources/scripts/js/SPCCommon.js")%>"></script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <section id="content">
+            <section class="vbox">
+                <ucctf:navi id="ctfNavi" runat="server" />
+                <section class="scrollable wrapper">
+                    <asp:ContentPlaceHolder ID="cphBody" runat="server"></asp:ContentPlaceHolder>
+                </section>
+            </section>
+        </section>
+    </form>
+</body>
+</html>

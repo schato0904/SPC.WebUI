@@ -1,0 +1,51 @@
+            <dx:ASPxTextBox ID="hidGridAction" ClientInstanceName="hidGridAction" runat="server" ClientVisible="false" Text="false" />
+            <dx:ASPxTextBox ID="hidGridColumnsWidth" ClientInstanceName="hidGridColumnsWidth" runat="server" ClientVisible="false" />
+            <dx:ASPxGridView ID="devGrid" ClientInstanceName="devGrid" runat="server" AutoGenerateColumns="false" Width="100%"
+                KeyFieldName="" EnableViewState="false" EnableRowsCache="false">
+                <Styles>
+                    <Header Font-Bold="true" HorizontalAlign="Center"></Header>
+                    <Cell HorizontalAlign="Center" Font-Size="9pt" Wrap="False" CssClass="truncated" Cursor="pointer"></Cell>
+                    <EditForm CssClass="bg-default"></EditForm>
+                </Styles>
+                <Settings VerticalScrollBarMode="Visible" VerticalScrollableHeight="0" ShowStatusBar="Visible" />
+                <SettingsBehavior AllowSort="false" />
+                <SettingsPager Mode="ShowAllRecords" />
+                <SettingsEditing Mode="Batch" BatchEditSettings-EditMode="Row" BatchEditSettings-StartEditAction="DblClick" />
+                <ClientSideEvents Init="fn_OnGridInit" EndCallback="fn_OnGridEndCallback" CallbackError="fn_OnCallbackError" />
+                <Templates>
+                    <StatusBar>
+                        <ucCTF:Count id="ucCount" runat="server" targetCtrl="devGrid" />
+                    </StatusBar>
+                </Templates>
+                <Columns>
+                    <dx:GridViewCommandColumn ShowSelectCheckbox="True" VisibleIndex="0" Width="35px">
+                        <HeaderTemplate>
+                            <dx:ASPxCheckBox ID="SelectAllCheckBox" runat="server" ToolTip="Select/Unselect all rows on the page"
+                                ClientSideEvents-CheckedChanged="function(s, e) { devGrid.SelectAllRowsOnPage(s.GetChecked()); }" />
+                        </HeaderTemplate>
+                    </dx:GridViewCommandColumn>
+                    <dx:GridViewDataTextColumn FieldName="F_PGMID" Caption="프로그램ID" Width="150px">
+                        <Settings AllowSort="True" />
+                    </dx:GridViewDataTextColumn>
+                    <dx:GridViewBandColumn Name="F_PGMNM" Caption="프로그램명">
+                        <Columns>
+                            <dx:GridViewDataTextColumn FieldName="F_PGMNMKR" Caption="프로그램명(한글)" Width="100%">
+                                <CellStyle HorizontalAlign="Left"></CellStyle>
+                                <PropertiesTextEdit ConvertEmptyStringToNull="false"></PropertiesTextEdit>
+                                <Settings AllowSort="True" />
+                            </dx:GridViewDataTextColumn>
+                            <dx:GridViewDataTextColumn FieldName="F_PGMNMUS" Caption="프로그램명(영문)" Width="150px">
+                                <CellStyle HorizontalAlign="Left"></CellStyle>
+                                <PropertiesTextEdit ConvertEmptyStringToNull="false"></PropertiesTextEdit>
+                            </dx:GridViewDataTextColumn>
+                            <dx:GridViewDataTextColumn FieldName="F_PGMNMCN" Caption="프로그램명(중문)" Width="150px">
+                                <CellStyle HorizontalAlign="Left"></CellStyle>
+                                <PropertiesTextEdit ConvertEmptyStringToNull="false"></PropertiesTextEdit>
+                            </dx:GridViewDataTextColumn>
+                        </Columns>
+                    </dx:GridViewBandColumn>
+                    <dx:GridViewDataTextColumn FieldName="F_LINK" Caption="프로그램경로" Width="100px"></dx:GridViewDataTextColumn>
+                    <dx:GridViewDataCheckColumn FieldName="F_STATUS" Caption="사용<br/>여부" Width="40px"></dx:GridViewDataCheckColumn>
+                </Columns>
+            </dx:ASPxGridView>
+            <dx:ASPxGridViewExporter ID="devGridExporter" runat="server" GridViewID="devGrid"></dx:ASPxGridViewExporter>
